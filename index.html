@@ -5,25 +5,16 @@
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
         content="Westwood Barber Co. — Premium men's haircuts, beard grooming, and traditional hot towel shaves in Minneapolis."
     >
 
-    <meta
-        name="theme-color"
-        content="#0b0b0a"
-    >
+    <meta name="theme-color" content="#0b0b0a">
 
-    <meta
-        name="robots"
-        content="index, follow"
-    >
+    <meta name="robots" content="index, follow">
 
     <meta
         property="og:title"
@@ -35,10 +26,7 @@
         content="Traditional craftsmanship. Modern precision. Premium men's barbering in Minneapolis."
     >
 
-    <meta
-        property="og:type"
-        content="website"
-    >
+    <meta property="og:type" content="website">
 
     <meta
         property="og:image"
@@ -47,22 +35,13 @@
 
     <title>Westwood Barber Co. | Premium Barbershop in Minneapolis</title>
 
-
-    <!-- Favicon -->
-
     <link
         rel="icon"
         type="image/png"
         href="Images/westwood-stag-gold.png"
     >
 
-
-    <!-- Google Fonts -->
-
-    <link
-        rel="preconnect"
-        href="https://fonts.googleapis.com"
-    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link
         rel="preconnect"
@@ -75,21 +54,12 @@
         rel="stylesheet"
     >
 
-
-    <!-- Font Awesome -->
-
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     >
 
-
-    <!-- Main Stylesheet -->
-
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
+    <link rel="stylesheet" href="style.css">
 
 
     <!-- Local Business Structured Data -->
@@ -135,26 +105,67 @@
 
 </head>
 
+
 <body>
 
 
-    <!-- Skip Navigation -->
-
-    <a
-        href="#main-content"
-        class="skip-link"
-    >
-        Skip to main content
-    </a>
+<a href="#main-content" class="skip-link">
+    Skip to main content
+</a>
 
 
-    <!-- =========================================
-         INTRO / LOADING SCREEN
-    ========================================== -->
+<!-- =====================================================
+     INTRO
+===================================================== -->
 
-    <div id="intro-screen">
+<div id="intro-screen">
 
-        <div class="intro-logo">
+    <div class="intro-logo">
+
+        <div class="logo-top">
+
+            <span class="logo-main">
+                WESTWOOD
+            </span>
+
+            <img
+                src="Images/westwood-stag-gold.png"
+                alt="Westwood Stag"
+                class="logo-stag"
+                width="68"
+                height="68"
+            >
+
+        </div>
+
+        <span class="logo-sub">
+            BARBER CO.
+        </span>
+
+    </div>
+
+    <div class="intro-line"></div>
+
+    <p class="intro-location">
+        MINNEAPOLIS · MINNESOTA
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a
+            href="#home"
+            class="header-logo"
+            aria-label="Westwood Barber Co. Home"
+        >
 
             <div class="logo-top">
 
@@ -164,7 +175,7 @@
 
                 <img
                     src="Images/westwood-stag-gold.png"
-                    alt="Westwood Stag"
+                    alt=""
                     class="logo-stag"
                     width="68"
                     height="68"
@@ -176,66 +187,1097 @@
                 BARBER CO.
             </span>
 
-        </div>
+        </a>
 
-        <div class="intro-line"></div>
 
-        <p class="intro-location">
-            MINNEAPOLIS · MINNESOTA
+        <nav
+            class="nav"
+            id="main-nav"
+            aria-label="Main navigation"
+        >
+
+            <a href="#home">Home</a>
+
+            <a href="#services">Services</a>
+
+            <a href="#about">About</a>
+
+            <a href="#barbers">Our Barbers</a>
+
+            <a href="#gallery">Gallery</a>
+
+            <a href="#contact">Contact</a>
+
+            <a href="#booking" class="nav-button">
+                Book Now
+            </a>
+
+        </nav>
+
+
+        <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="main-nav"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<main id="main-content">
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section
+    class="hero"
+    id="home"
+    aria-labelledby="hero-title"
+>
+
+    <div
+        class="hero-overlay"
+        aria-hidden="true"
+    ></div>
+
+    <div class="container hero-content">
+
+        <p class="eyebrow">
+            EST. 2026 · MINNEAPOLIS, MN
         </p>
+
+        <h1 id="hero-title">
+            Style <span>begins in the chair.</span>
+        </h1>
+
+        <p class="hero-text">
+            Traditional craftsmanship.
+            Modern precision.
+            A barbershop built for men who
+            appreciate the difference.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a
+                href="#booking"
+                class="button button-primary"
+            >
+                Book Your Chair
+            </a>
+
+            <a
+                href="#services"
+                class="button button-secondary"
+            >
+                Explore Services
+            </a>
+
+        </div>
 
     </div>
 
 
+    <a
+        href="#services"
+        class="scroll-indicator"
+        aria-label="Scroll to services"
+    >
 
-    <!-- =========================================
-         HEADER
-    ========================================== -->
+        <span
+            class="scroll-line"
+            aria-hidden="true"
+        ></span>
 
-    <header class="header">
+        <span>SCROLL</span>
 
-        <div class="container nav-container">
+    </a>
+
+</section>
 
 
-            <!-- Logo -->
+<!-- =====================================================
+     MARQUEE
+===================================================== -->
+
+<div
+    class="marquee"
+    aria-label="Westwood Barber Co. values"
+>
+
+    <div class="marquee-track">
+
+        <span>PRECISION</span>
+        <span class="marquee-dot">✦</span>
+
+        <span>CRAFTSMANSHIP</span>
+        <span class="marquee-dot">✦</span>
+
+        <span>TRADITION</span>
+        <span class="marquee-dot">✦</span>
+
+        <span>STYLE</span>
+        <span class="marquee-dot">✦</span>
+
+        <span>PRECISION</span>
+        <span class="marquee-dot">✦</span>
+
+        <span>CRAFTSMANSHIP</span>
+        <span class="marquee-dot">✦</span>
+
+        <span>TRADITION</span>
+        <span class="marquee-dot">✦</span>
+
+        <span>STYLE</span>
+        <span class="marquee-dot">✦</span>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section
+    class="section services-section"
+    id="services"
+    aria-labelledby="services-title"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                THE WESTWOOD STANDARD
+            </p>
+
+            <h2 id="services-title">
+                Crafted with<br>
+                <em>intention.</em>
+            </h2>
+
+            <p class="section-intro">
+                Every service is built around
+                precision, attention to detail,
+                and the timeless art of barbering.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+            <article class="service-card">
+
+                <img
+                    src="Images/classic-haircut.jpg"
+                    alt="Classic men's haircut at Westwood Barber Co."
+                    class="service-image"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="520"
+                >
+
+                <div class="service-number">
+                    01
+                </div>
+
+                <div class="service-content">
+
+                    <span class="service-symbol">
+                        ✦
+                    </span>
+
+                    <h3>
+                        Classic Haircut
+                    </h3>
+
+                    <p>
+                        A precision haircut tailored to your style,
+                        finished with detailed grooming and styling.
+                    </p>
+
+                    <div class="service-meta">
+
+                        <span>$65</span>
+                        <span>45 MIN</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <img
+                    src="Images/haircut-beard.jpg"
+                    alt="Men's haircut and beard grooming"
+                    class="service-image"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="520"
+                >
+
+                <div class="service-number">
+                    02
+                </div>
+
+                <div class="service-content">
+
+                    <span class="service-symbol">
+                        ✦
+                    </span>
+
+                    <h3>
+                        Haircut & Beard
+                    </h3>
+
+                    <p>
+                        Complete grooming from hair to beard,
+                        shaped and finished with meticulous precision.
+                    </p>
+
+                    <div class="service-meta">
+
+                        <span>$85</span>
+                        <span>60 MIN</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <img
+                    src="Images/hot-towel-shave.jpg"
+                    alt="Traditional hot towel straight razor shave"
+                    class="service-image"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="520"
+                >
+
+                <div class="service-number">
+                    03
+                </div>
+
+                <div class="service-content">
+
+                    <span class="service-symbol">
+                        ✦
+                    </span>
+
+                    <h3>
+                        Hot Towel Shave
+                    </h3>
+
+                    <p>
+                        A traditional straight-razor shave with warm towels,
+                        rich lather, and a smooth finish.
+                    </p>
+
+                    <div class="service-meta">
+
+                        <span>$65</span>
+                        <span>30 MIN</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <img
+                    src="Images/beard-trim.jpg"
+                    alt="Professional men's beard trim and shaping"
+                    class="service-image"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="520"
+                >
+
+                <div class="service-number">
+                    04
+                </div>
+
+                <div class="service-content">
+
+                    <span class="service-symbol">
+                        ✦
+                    </span>
+
+                    <h3>
+                        Beard Trim
+                    </h3>
+
+                    <p>
+                        Detailed beard shaping, trimming, and finishing
+                        designed to keep your look sharp.
+                    </p>
+
+                    <div class="service-meta">
+
+                        <span>$45</span>
+                        <span>30 MIN</span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section
+    class="section about-section"
+    id="about"
+    aria-labelledby="about-title"
+>
+
+    <div class="container about-grid">
+
+        <div class="about-image">
+
+            <img
+                src="Images/westwood-stag.jpg"
+                alt="Westwood Barber Co. interior"
+                loading="lazy"
+                decoding="async"
+                width="1000"
+                height="1300"
+            >
+
+            <div
+                class="image-frame"
+                aria-hidden="true"
+            ></div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="eyebrow">
+                ABOUT WESTWOOD
+            </p>
+
+            <h2 id="about-title">
+                The art of<br>
+                <em>the chair.</em>
+            </h2>
+
+            <p>
+                Westwood Barber Co. was built on a
+                simple belief: a great haircut should
+                be more than a service. It should be
+                an experience.
+            </p>
+
+            <p>
+                We combine old-school barbering
+                traditions with modern technique,
+                creating a relaxed environment where
+                craftsmanship comes first.
+            </p>
+
+            <p>
+                From the first consultation to the
+                final detail, every cut is performed
+                with purpose.
+            </p>
+
+            <a
+                href="#booking"
+                class="text-link"
+            >
+                Book Your Experience
+                <span aria-hidden="true">→</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     BARBERS
+===================================================== -->
+
+<section
+    class="section team-section"
+    id="barbers"
+    aria-labelledby="barbers-title"
+>
+
+    <div class="container">
+
+        <div class="section-heading centered">
+
+            <p class="eyebrow">
+                THE BARBERS
+            </p>
+
+            <h2 id="barbers-title">
+                Meet the<br>
+                <em>craftsmen.</em>
+            </h2>
+
+            <p class="section-intro">
+                Experienced hands. Individual
+                style. One shared standard.
+            </p>
+
+        </div>
+
+
+        <div class="team-grid">
+
+            <article class="barber-card">
+
+                <div class="barber-image">
+
+                    <img
+                        src="Images/michael-west.jpg"
+                        alt="Michael West, Master Barber"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="975"
+                    >
+
+                </div>
+
+                <div class="barber-info">
+
+                    <p class="barber-role">
+                        MASTER BARBER
+                    </p>
+
+                    <h3>
+                        Michael West
+                    </h3>
+
+                    <p>
+                        Classic cuts, traditional
+                        shaves, and timeless style.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="barber-card">
+
+                <div class="barber-image">
+
+                    <img
+                        src="Images/james-carter.jpg"
+                        alt="James Carter, Senior Barber"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="975"
+                    >
+
+                </div>
+
+                <div class="barber-info">
+
+                    <p class="barber-role">
+                        SENIOR BARBER
+                    </p>
+
+                    <h3>
+                        James Carter
+                    </h3>
+
+                    <p>
+                        Modern fades, textured cuts,
+                        and refined beard work.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="barber-card">
+
+                <div class="barber-image">
+
+                    <img
+                        src="Images/daniel-brooks.jpg"
+                        alt="Daniel Brooks, Barber"
+                        loading="lazy"
+                        decoding="async"
+                        width="800"
+                        height="975"
+                    >
+
+                </div>
+
+                <div class="barber-info">
+
+                    <p class="barber-role">
+                        BARBER
+                    </p>
+
+                    <h3>
+                        Daniel Brooks
+                    </h3>
+
+                    <p>
+                        Precision styling with a focus
+                        on clean, modern finishes.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     GALLERY
+===================================================== -->
+
+<section
+    class="section gallery-section"
+    id="gallery"
+    aria-labelledby="gallery-title"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                INSIDE WESTWOOD
+            </p>
+
+            <h2 id="gallery-title">
+                The Westwood<br>
+                <em>experience.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item gallery-large">
+
+                <img
+                    src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1400&q=85"
+                    alt="Barbershop interior"
+                    loading="lazy"
+                    decoding="async"
+                >
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="https://monsieurbarbier.ca/images/Background-1.jpg"
+                    alt="Premium dark wood barbershop with leather barber chairs"
+                    loading="lazy"
+                    decoding="async"
+                >
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="https://artanbased.com/assets/images/interior.webp"
+                    alt="Barber giving a precision haircut in a classic men's barbershop"
+                    loading="lazy"
+                    decoding="async"
+                >
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="https://www.clearpath-digital.com/assets/case-barber-DkGGAgdD.jpg"
+                    alt="Classic dark wood barbershop with leather barber chairs"
+                    loading="lazy"
+                    decoding="async"
+                >
+
+            </div>
+
+
+            <div class="gallery-item">
+
+                <img
+                    src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=900&q=85"
+                    alt="Barber tools and grooming"
+                    loading="lazy"
+                    decoding="async"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     TESTIMONIAL
+===================================================== -->
+
+<section
+    class="testimonial-section"
+    aria-label="Client testimonial"
+>
+
+    <div class="container testimonial-inner">
+
+        <span class="quote-mark">
+            “
+        </span>
+
+        <blockquote>
+            The kind of barbershop where you
+            immediately know you're in good hands.
+            Sharp work, great atmosphere, and
+            attention to every detail.
+        </blockquote>
+
+        <div class="testimonial-author">
+
+            <span class="author-line"></span>
+
+            <span>
+                A WESTWOOD CLIENT
+            </span>
+
+            <span class="author-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     BOOKING
+===================================================== -->
+
+<section
+    class="section booking-section"
+    id="booking"
+    aria-labelledby="booking-title"
+>
+
+    <div class="container booking-grid">
+
+
+        <div class="booking-content">
+
+            <p class="eyebrow">
+                RESERVE YOUR CHAIR
+            </p>
+
+            <h2 id="booking-title">
+                Your next cut<br>
+                <em>starts here.</em>
+            </h2>
+
+            <p>
+                Ready for a sharper look?
+                Reserve your chair at Westwood
+                Barber Co. and experience
+                barbering done right.
+            </p>
+
+
+            <div
+                class="contact-details"
+                id="contact"
+            >
+
+                <div class="contact-item">
+
+                    <span class="contact-label">
+                        LOCATION
+                    </span>
+
+                    <address>
+                        125 Westwood Avenue<br>
+                        Minneapolis, MN 55401
+                    </address>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span class="contact-label">
+                        PHONE
+                    </span>
+
+                    <a href="tel:+16125550198">
+                        +1 (612) 555-0198
+                    </a>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span class="contact-label">
+                        HOURS
+                    </span>
+
+                    <span>
+                        Tue–Fri · 9AM–7PM<br>
+                        Sat · 9AM–5PM
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="booking-form-wrapper">
+
+            <form
+                class="booking-form"
+                id="booking-form"
+                novalidate
+            >
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            NAME
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                            autocomplete="name"
+                            minlength="2"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            PHONE
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Your phone"
+                            autocomplete="tel"
+                            inputmode="tel"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        EMAIL
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your email"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="service">
+                        SERVICE
+                    </label>
+
+                    <select
+                        id="service"
+                        name="service"
+                        required
+                    >
+
+                        <option
+                            value=""
+                            selected
+                            disabled
+                        >
+                            Select a service
+                        </option>
+
+                        <option value="classic-haircut">
+                            Classic Haircut — $65
+                        </option>
+
+                        <option value="haircut-beard">
+                            Haircut & Beard — $85
+                        </option>
+
+                        <option value="hot-towel-shave">
+                            Hot Towel Shave — $65
+                        </option>
+
+                        <option value="beard-trim">
+                            Beard Trim — $45
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="date">
+                            PREFERRED DATE
+                        </label>
+
+                        <input
+                            type="date"
+                            id="date"
+                            name="date"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="time">
+                            PREFERRED TIME
+                        </label>
+
+                        <select
+                            id="time"
+                            name="time"
+                            required
+                        >
+
+                            <option
+                                value=""
+                                selected
+                                disabled
+                            >
+                                Select a time
+                            </option>
+
+                            <option value="9:00">9:00 AM</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="12:00">12:00 PM</option>
+                            <option value="1:00">1:00 PM</option>
+                            <option value="2:00">2:00 PM</option>
+                            <option value="3:00">3:00 PM</option>
+                            <option value="4:00">4:00 PM</option>
+                            <option value="5:00">5:00 PM</option>
+                            <option value="6:00">6:00 PM</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">
+                        NOTE
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        maxlength="500"
+                        placeholder="Anything we should know?"
+                    ></textarea>
+
+                    <span
+                        class="character-count"
+                        id="character-count"
+                        aria-live="polite"
+                    >
+                        0 / 500
+                    </span>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="button button-primary form-submit"
+                >
+                    Request Appointment
+                </button>
+
+                <p class="form-note">
+                    We'll confirm your appointment
+                    by phone or email.
+                </p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+
+        <!-- =================================================
+             MOBILE / DESKTOP BRAND
+        ================================================== -->
+
+        <div class="footer-brand">
 
             <a
                 href="#home"
-                class="header-logo"
+                class="footer-logo"
                 aria-label="Westwood Barber Co. Home"
             >
 
-                <div class="logo-top">
+                <div class="footer-logo-top">
 
-                    <span class="logo-main">
+                    <span class="footer-logo-main">
                         WESTWOOD
                     </span>
 
                     <img
                         src="Images/westwood-stag-gold.png"
                         alt=""
-                        class="logo-stag"
+                        class="footer-logo-stag"
                         width="68"
                         height="68"
                     >
 
                 </div>
 
-                <span class="logo-sub">
+                <span class="footer-logo-sub">
                     BARBER CO.
                 </span>
 
             </a>
 
 
+            <p class="footer-tagline">
+                Traditional barbering.<br>
+                Modern style.<br>
+                Minneapolis.
+            </p>
 
-            <!-- Navigation -->
+        </div>
 
-            <nav
-                class="nav"
-                id="main-nav"
-                aria-label="Main navigation"
-            >
+
+        <!-- =================================================
+             FOOTER 3 COLUMNS
+        ================================================== -->
+
+        <div class="footer-grid">
+
+
+            <!-- EXPLORE -->
+
+            <div class="footer-column footer-explore">
+
+                <h4>
+                    EXPLORE
+                </h4>
 
                 <a href="#home">
                     Home
@@ -253,1333 +1295,104 @@
                     Our Barbers
                 </a>
 
-                <a href="#gallery">
-                    Gallery
+            </div>
+
+
+            <!-- SERVICES -->
+
+            <div class="footer-column footer-services">
+
+                <h4>
+                    SERVICES
+                </h4>
+
+                <a href="#services">
+                    Haircuts
                 </a>
 
-                <a href="#contact">
-                    Contact
+                <a href="#services">
+                    Beard Grooming
                 </a>
 
-                <a
-                    href="#booking"
-                    class="nav-button"
-                >
+                <a href="#services">
+                    Hot Towel Shaves
+                </a>
+
+                <a href="#booking">
                     Book Now
                 </a>
 
-            </nav>
-
-
-
-            <!-- Mobile Menu Button -->
-
-            <button
-                class="menu-toggle"
-                id="menu-toggle"
-                type="button"
-                aria-label="Open navigation menu"
-                aria-expanded="false"
-                aria-controls="main-nav"
-            >
-
-                <span></span>
-                <span></span>
-                <span></span>
-
-            </button>
-
-        </div>
-
-    </header>
-
-
-
-    <main id="main-content">
-
-
-        <!-- =========================================
-             HERO
-        ========================================== -->
-
-        <section
-            class="hero"
-            id="home"
-            aria-labelledby="hero-title"
-        >
-
-            <div
-                class="hero-overlay"
-                aria-hidden="true"
-            ></div>
-
-            <div class="container hero-content">
-
-                <p class="eyebrow">
-                    EST. 2026 · MINNEAPOLIS, MN
-                </p>
-
-                <h1 id="hero-title">
-                    Style <span>begins in the chair.</span>
-                </h1>
-
-                <p class="hero-text">
-                    Traditional craftsmanship.
-                    Modern precision.
-                    A barbershop built for men who
-                    appreciate the difference.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a
-                        href="#booking"
-                        class="button button-primary"
-                    >
-                        Book Your Chair
-                    </a>
-
-                    <a
-                        href="#services"
-                        class="button button-secondary"
-                    >
-                        Explore Services
-                    </a>
-
-                </div>
-
             </div>
 
 
+            <!-- VISIT -->
 
-            <!-- Scroll Indicator -->
+            <div class="footer-column footer-visit">
 
-            <a
-                href="#services"
-                class="scroll-indicator"
-                aria-label="Scroll to services"
-            >
+                <h4>
+                    VISIT
+                </h4>
 
-                <span
-                    class="scroll-line"
-                    aria-hidden="true"
-                ></span>
+                <address>
+                    125 Westwood Avenue<br>
+                    Minneapolis, MN 55401
+                </address>
 
-                <span>
-                    SCROLL
-                </span>
-
-            </a>
-
-        </section>
+                <a href="tel:+16125550198">
+                    +1 (612) 555-0198
+                </a>
 
 
+                <div class="footer-social">
 
-        <!-- =========================================
-             MARQUEE
-        ========================================== -->
+                    <a
+                        href="https://www.instagram.com/"
+                        aria-label="Instagram"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
 
-        <div
-            class="marquee"
-            aria-label="Westwood Barber Co. values"
-        >
+                    <a
+                        href="https://www.facebook.com/"
+                        aria-label="Facebook"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
 
-            <div class="marquee-track">
-
-                <span>PRECISION</span>
-                <span class="marquee-dot" aria-hidden="true">✦</span>
-
-                <span>CRAFTSMANSHIP</span>
-                <span class="marquee-dot" aria-hidden="true">✦</span>
-
-                <span>TRADITION</span>
-                <span class="marquee-dot" aria-hidden="true">✦</span>
-
-                <span>STYLE</span>
-                <span class="marquee-dot" aria-hidden="true">✦</span>
-
-                <span>PRECISION</span>
-                <span class="marquee-dot" aria-hidden="true">✦</span>
-
-                <span>CRAFTSMANSHIP</span>
-                <span class="marquee-dot" aria-hidden="true">✦</span>
-
-                <span>TRADITION</span>
-                <span class="marquee-dot" aria-hidden="true">✦</span>
-
-                <span>STYLE</span>
-                <span class="marquee-dot" aria-hidden="true">✦</span>
+                </div>
 
             </div>
 
         </div>
 
 
-
-        <!-- =========================================
-             SERVICES
-        ========================================== -->
-
-        <section
-            class="section services-section"
-            id="services"
-            aria-labelledby="services-title"
-        >
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <p class="eyebrow">
-                        THE WESTWOOD STANDARD
-                    </p>
-
-                    <h2 id="services-title">
-                        Crafted with<br>
-                        <em>intention.</em>
-                    </h2>
-
-                    <p class="section-intro">
-                        Every service is built around
-                        precision, attention to detail,
-                        and the timeless art of barbering.
-                    </p>
-
-                </div>
-
-
-
-                <div class="services-grid">
-
-
-                    <!-- 01 — Classic Haircut -->
-
-                    <article class="service-card">
-
-                        <img
-                            src="Images/classic-haircut.jpg"
-                            alt="Classic men's haircut at Westwood Barber Co."
-                            class="service-image"
-                            loading="lazy"
-                            decoding="async"
-                            width="800"
-                            height="520"
-                        >
-
-                        <div class="service-number">
-                            01
-                        </div>
-
-                        <div class="service-content">
-
-                            <span
-                                class="service-symbol"
-                                aria-hidden="true"
-                            >
-                                ✦
-                            </span>
-
-                            <h3>
-                                Classic Haircut
-                            </h3>
-
-                            <p>
-                                A precision haircut tailored to your style,
-                                finished with detailed grooming and styling.
-                            </p>
-
-                            <div class="service-meta">
-
-                                <span>
-                                    $65
-                                </span>
-
-                                <span>
-                                    45 MIN
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- 02 — Haircut & Beard -->
-
-                    <article class="service-card">
-
-                        <img
-                            src="Images/haircut-beard.jpg"
-                            alt="Men's haircut and beard grooming"
-                            class="service-image"
-                            loading="lazy"
-                            decoding="async"
-                            width="800"
-                            height="520"
-                        >
-
-                        <div class="service-number">
-                            02
-                        </div>
-
-                        <div class="service-content">
-
-                            <span
-                                class="service-symbol"
-                                aria-hidden="true"
-                            >
-                                ✦
-                            </span>
-
-                            <h3>
-                                Haircut & Beard
-                            </h3>
-
-                            <p>
-                                Complete grooming from hair to beard,
-                                shaped and finished with meticulous precision.
-                            </p>
-
-                            <div class="service-meta">
-
-                                <span>
-                                    $85
-                                </span>
-
-                                <span>
-                                    60 MIN
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- 03 — Hot Towel Shave -->
-
-                    <article class="service-card">
-
-                        <img
-                            src="Images/hot-towel-shave.jpg"
-                            alt="Traditional hot towel straight razor shave"
-                            class="service-image"
-                            loading="lazy"
-                            decoding="async"
-                            width="800"
-                            height="520"
-                        >
-
-                        <div class="service-number">
-                            03
-                        </div>
-
-                        <div class="service-content">
-
-                            <span
-                                class="service-symbol"
-                                aria-hidden="true"
-                            >
-                                ✦
-                            </span>
-
-                            <h3>
-                                Hot Towel Shave
-                            </h3>
-
-                            <p>
-                                A traditional straight-razor shave with warm towels,
-                                rich lather, and a smooth finish.
-                            </p>
-
-                            <div class="service-meta">
-
-                                <span>
-                                    $65
-                                </span>
-
-                                <span>
-                                    30 MIN
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- 04 — Beard Trim -->
-
-                    <article class="service-card">
-
-                        <img
-                            src="Images/beard-trim.jpg"
-                            alt="Professional men's beard trim and shaping"
-                            class="service-image"
-                            loading="lazy"
-                            decoding="async"
-                            width="800"
-                            height="520"
-                        >
-
-                        <div class="service-number">
-                            04
-                        </div>
-
-                        <div class="service-content">
-
-                            <span
-                                class="service-symbol"
-                                aria-hidden="true"
-                            >
-                                ✦
-                            </span>
-
-                            <h3>
-                                Beard Trim
-                            </h3>
-
-                            <p>
-                                Detailed beard shaping, trimming, and finishing
-                                designed to keep your look sharp.
-                            </p>
-
-                            <div class="service-meta">
-
-                                <span>
-                                    $45
-                                </span>
-
-                                <span>
-                                    30 MIN
-                                </span>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =========================================
-             ABOUT
-        ========================================== -->
-
-        <section
-            class="section about-section"
-            id="about"
-            aria-labelledby="about-title"
-        >
-
-            <div class="container about-grid">
-
-                <div class="about-image">
-
-                    <img
-                        src="Images/westwood-stag.jpg"
-                        alt="Westwood Barber Co. interior"
-                        loading="lazy"
-                        decoding="async"
-                        width="1000"
-                        height="1300"
-                    >
-
-                    <div
-                        class="image-frame"
-                        aria-hidden="true"
-                    ></div>
-
-                </div>
-
-
-
-                <div class="about-content">
-
-                    <p class="eyebrow">
-                        ABOUT WESTWOOD
-                    </p>
-
-                    <h2 id="about-title">
-                        The art of<br>
-                        <em>the chair.</em>
-                    </h2>
-
-                    <p>
-                        Westwood Barber Co. was built on a
-                        simple belief: a great haircut should
-                        be more than a service. It should be
-                        an experience.
-                    </p>
-
-                    <p>
-                        We combine old-school barbering
-                        traditions with modern technique,
-                        creating a relaxed environment where
-                        craftsmanship comes first.
-                    </p>
-
-                    <p>
-                        From the first consultation to the
-                        final detail, every cut is performed
-                        with purpose.
-                    </p>
-
-                    <a
-                        href="#booking"
-                        class="text-link"
-                    >
-                        Book Your Experience
-                        <span aria-hidden="true">→</span>
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =========================================
-             BARBERS
-        ========================================== -->
-
-        <section
-            class="section team-section"
-            id="barbers"
-            aria-labelledby="barbers-title"
-        >
-
-            <div class="container">
-
-                <div class="section-heading centered">
-
-                    <p class="eyebrow">
-                        THE BARBERS
-                    </p>
-
-                    <h2 id="barbers-title">
-                        Meet the<br>
-                        <em>craftsmen.</em>
-                    </h2>
-
-                    <p class="section-intro">
-                        Experienced hands. Individual
-                        style. One shared standard.
-                    </p>
-
-                </div>
-
-
-
-                <div class="team-grid">
-
-
-                    <!-- Barber 01 -->
-
-                    <article class="barber-card">
-
-                        <div class="barber-image">
-
-                            <img
-                                src="Images/michael-west.jpg"
-                                alt="Michael West, Master Barber"
-                                loading="lazy"
-                                decoding="async"
-                                width="800"
-                                height="975"
-                            >
-
-                        </div>
-
-                        <div class="barber-info">
-
-                            <p class="barber-role">
-                                MASTER BARBER
-                            </p>
-
-                            <h3>
-                                Michael West
-                            </h3>
-
-                            <p>
-                                Classic cuts, traditional
-                                shaves, and timeless style.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- Barber 02 -->
-
-                    <article class="barber-card">
-
-                        <div class="barber-image">
-
-                            <img
-                                src="Images/james-carter.jpg"
-                                alt="James Carter, Senior Barber"
-                                loading="lazy"
-                                decoding="async"
-                                width="800"
-                                height="975"
-                            >
-
-                        </div>
-
-                        <div class="barber-info">
-
-                            <p class="barber-role">
-                                SENIOR BARBER
-                            </p>
-
-                            <h3>
-                                James Carter
-                            </h3>
-
-                            <p>
-                                Modern fades, textured cuts,
-                                and refined beard work.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-
-                    <!-- Barber 03 -->
-
-                    <article class="barber-card">
-
-                        <div class="barber-image">
-
-                            <img
-                                src="Images/daniel-brooks.jpg"
-                                alt="Daniel Brooks, Barber"
-                                loading="lazy"
-                                decoding="async"
-                                width="800"
-                                height="975"
-                            >
-
-                        </div>
-
-                        <div class="barber-info">
-
-                            <p class="barber-role">
-                                BARBER
-                            </p>
-
-                            <h3>
-                                Daniel Brooks
-                            </h3>
-
-                            <p>
-                                Precision styling with a focus
-                                on clean, modern finishes.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =========================================
-             GALLERY
-        ========================================== -->
-
-        <section
-            class="section gallery-section"
-            id="gallery"
-            aria-labelledby="gallery-title"
-        >
-
-            <div class="container">
-
-                <div class="section-heading">
-
-                    <p class="eyebrow">
-                        INSIDE WESTWOOD
-                    </p>
-
-                    <h2 id="gallery-title">
-                        The Westwood<br>
-                        <em>experience.</em>
-                    </h2>
-
-                </div>
-
-
-
-                <div class="gallery-grid">
-
-
-                    <div class="gallery-item gallery-large">
-
-                        <img
-                            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1400&q=85"
-                            alt="Barbershop interior"
-                            loading="lazy"
-                            decoding="async"
-                        >
-
-                    </div>
-
-
-
-                    <div class="gallery-item">
-
-                        <img
-                            src="https://monsieurbarbier.ca/images/Background-1.jpg"
-                            alt="Premium dark wood barbershop with leather barber chairs"
-                            loading="lazy"
-                            decoding="async"
-                        >
-
-                    </div>
-
-
-
-                    <div class="gallery-item">
-
-                        <img
-                            src="https://artanbased.com/assets/images/interior.webp"
-                            alt="Barber giving a precision haircut in a classic men's barbershop"
-                            loading="lazy"
-                            decoding="async"
-                        >
-
-                    </div>
-
-
-
-                    <div class="gallery-item">
-
-                        <img
-                            src="https://www.clearpath-digital.com/assets/case-barber-DkGGAgdD.jpg"
-                            alt="Classic dark wood barbershop with leather barber chairs"
-                            loading="lazy"
-                            decoding="async"
-                        >
-
-                    </div>
-
-
-
-                    <div class="gallery-item">
-
-                        <img
-                            src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=900&q=85"
-                            alt="Barber tools and grooming"
-                            loading="lazy"
-                            decoding="async"
-                        >
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =========================================
-             TESTIMONIAL
-        ========================================== -->
-
-        <section
-            class="testimonial-section"
-            aria-label="Client testimonial"
-        >
-
-            <div class="container testimonial-inner">
-
-                <span
-                    class="quote-mark"
-                    aria-hidden="true"
-                >
-                    “
-                </span>
-
-                <blockquote>
-                    The kind of barbershop where you
-                    immediately know you're in good hands.
-                    Sharp work, great atmosphere, and
-                    attention to every detail.
-                </blockquote>
-
-                <div class="testimonial-author">
-
-                    <span
-                        class="author-line"
-                        aria-hidden="true"
-                    ></span>
-
-                    <span>
-                        A WESTWOOD CLIENT
-                    </span>
-
-                    <span
-                        class="author-line"
-                        aria-hidden="true"
-                    ></span>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =========================================
-             BOOKING / CONTACT
-        ========================================== -->
-
-        <section
-            class="section booking-section"
-            id="booking"
-            aria-labelledby="booking-title"
-        >
-
-            <div class="container booking-grid">
-
-
-                <div class="booking-content">
-
-                    <p class="eyebrow">
-                        RESERVE YOUR CHAIR
-                    </p>
-
-                    <h2 id="booking-title">
-                        Your next cut<br>
-                        <em>starts here.</em>
-                    </h2>
-
-                    <p>
-                        Ready for a sharper look?
-                        Reserve your chair at Westwood
-                        Barber Co. and experience
-                        barbering done right.
-                    </p>
-
-
-
-                    <div
-                        class="contact-details"
-                        id="contact"
-                    >
-
-
-                        <div class="contact-item">
-
-                            <span class="contact-label">
-                                LOCATION
-                            </span>
-
-                            <address>
-                                125 Westwood Avenue<br>
-                                Minneapolis, MN 55401
-                            </address>
-
-                        </div>
-
-
-
-                        <div class="contact-item">
-
-                            <span class="contact-label">
-                                PHONE
-                            </span>
-
-                            <a href="tel:+16125550198">
-                                +1 (612) 555-0198
-                            </a>
-
-                        </div>
-
-
-
-                        <div class="contact-item">
-
-                            <span class="contact-label">
-                                HOURS
-                            </span>
-
-                            <span>
-                                Tue–Fri · 9AM–7PM<br>
-                                Sat · 9AM–5PM
-                            </span>
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- Booking Form -->
-
-                <div class="booking-form-wrapper">
-
-                    <form
-                        class="booking-form"
-                        id="booking-form"
-                        novalidate
-                    >
-
-
-                        <div class="form-row">
-
-
-                            <div class="form-group">
-
-                                <label for="name">
-                                    NAME
-                                </label>
-
-                                <input
-                                    type="text"
-                                    id="name"
-                                    name="name"
-                                    placeholder="Your name"
-                                    autocomplete="name"
-                                    minlength="2"
-                                    required
-                                >
-
-                            </div>
-
-
-
-                            <div class="form-group">
-
-                                <label for="phone">
-                                    PHONE
-                                </label>
-
-                                <input
-                                    type="tel"
-                                    id="phone"
-                                    name="phone"
-                                    placeholder="Your phone"
-                                    autocomplete="tel"
-                                    inputmode="tel"
-                                    required
-                                >
-
-                            </div>
-
-
-                        </div>
-
-
-
-                        <div class="form-group">
-
-                            <label for="email">
-                                EMAIL
-                            </label>
-
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                placeholder="Your email"
-                                autocomplete="email"
-                                required
-                            >
-
-                        </div>
-
-
-
-                        <div class="form-group">
-
-                            <label for="service">
-                                SERVICE
-                            </label>
-
-                            <select
-                                id="service"
-                                name="service"
-                                required
-                            >
-
-                                <option
-                                    value=""
-                                    selected
-                                    disabled
-                                >
-                                    Select a service
-                                </option>
-
-                                <option value="classic-haircut">
-                                    Classic Haircut — $65
-                                </option>
-
-                                <option value="haircut-beard">
-                                    Haircut & Beard — $85
-                                </option>
-
-                                <option value="hot-towel-shave">
-                                    Hot Towel Shave — $65
-                                </option>
-
-                                <option value="beard-trim">
-                                    Beard Trim — $45
-                                </option>
-
-                            </select>
-
-                        </div>
-
-
-
-                        <div class="form-row">
-
-
-                            <div class="form-group">
-
-                                <label for="date">
-                                    PREFERRED DATE
-                                </label>
-
-                                <input
-                                    type="date"
-                                    id="date"
-                                    name="date"
-                                    required
-                                >
-
-                            </div>
-
-
-
-                            <div class="form-group">
-
-                                <label for="time">
-                                    PREFERRED TIME
-                                </label>
-
-                                <select
-                                    id="time"
-                                    name="time"
-                                    required
-                                >
-
-                                    <option
-                                        value=""
-                                        selected
-                                        disabled
-                                    >
-                                        Select a time
-                                    </option>
-
-                                    <option value="9:00">
-                                        9:00 AM
-                                    </option>
-
-                                    <option value="10:00">
-                                        10:00 AM
-                                    </option>
-
-                                    <option value="11:00">
-                                        11:00 AM
-                                    </option>
-
-                                    <option value="12:00">
-                                        12:00 PM
-                                    </option>
-
-                                    <option value="1:00">
-                                        1:00 PM
-                                    </option>
-
-                                    <option value="2:00">
-                                        2:00 PM
-                                    </option>
-
-                                    <option value="3:00">
-                                        3:00 PM
-                                    </option>
-
-                                    <option value="4:00">
-                                        4:00 PM
-                                    </option>
-
-                                    <option value="5:00">
-                                        5:00 PM
-                                    </option>
-
-                                    <option value="6:00">
-                                        6:00 PM
-                                    </option>
-
-                                </select>
-
-                            </div>
-
-
-                        </div>
-
-
-
-                        <div class="form-group">
-
-                            <label for="message">
-                                NOTE
-                            </label>
-
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="4"
-                                maxlength="500"
-                                placeholder="Anything we should know?"
-                            ></textarea>
-
-                            <span
-                                class="character-count"
-                                id="character-count"
-                                aria-live="polite"
-                            >
-                                0 / 500
-                            </span>
-
-                        </div>
-
-
-
-                        <button
-                            type="submit"
-                            class="button button-primary form-submit"
-                        >
-                            Request Appointment
-                        </button>
-
-
-
-                        <p class="form-note">
-                            We'll confirm your appointment
-                            by phone or email.
-                        </p>
-
-
-                    </form>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-    </main>
-
-
-
-    <!-- =========================================
-         FOOTER
-    ========================================== -->
-
-    <footer class="footer">
-
-        <div class="container">
-
-            <div class="footer-grid">
-
-
-                <!-- Footer Brand -->
-
-                <div class="footer-brand">
-
-                    <a
-                        href="#home"
-                        class="footer-logo"
-                        aria-label="Westwood Barber Co. Home"
-                    >
-
-                        <div class="footer-logo-top">
-
-                            <span class="footer-logo-main">
-                                WESTWOOD
-                            </span>
-
-                            <img
-                                src="Images/westwood-stag-gold.png"
-                                alt=""
-                                class="footer-logo-stag"
-                                width="68"
-                                height="68"
-                            >
-
-                        </div>
-
-                        <span class="footer-logo-sub">
-                            BARBER CO.
-                        </span>
-
-                    </a>
-
-                    <p>
-                        Traditional barbering.<br>
-                        Modern style.<br>
-                        Minneapolis.
-                    </p>
-
-                </div>
-
-
-
-                <!-- Footer Navigation -->
-
-                <div class="footer-column">
-
-                    <h4>
-                        EXPLORE
-                    </h4>
-
-                    <a href="#home">
-                        Home
-                    </a>
-
-                    <a href="#services">
-                        Services
-                    </a>
-
-                    <a href="#about">
-                        About
-                    </a>
-
-                    <a href="#barbers">
-                        Our Barbers
-                    </a>
-
-                </div>
-
-
-
-                <!-- Footer Services -->
-
-                <div class="footer-column">
-
-                    <h4>
-                        SERVICES
-                    </h4>
-
-                    <a href="#services">
-                        Haircuts
-                    </a>
-
-                    <a href="#services">
-                        Beard Grooming
-                    </a>
-
-                    <a href="#services">
-                        Hot Towel Shaves
-                    </a>
-
-                    <a href="#booking">
-                        Book Now
-                    </a>
-
-                </div>
-
-
-
-                <!-- Footer Contact -->
-
-                <div class="footer-column">
-
-                    <h4>
-                        VISIT
-                    </h4>
-
-                    <address>
-                        125 Westwood Avenue<br>
-                        Minneapolis, MN 55401
-                    </address>
-
-                    <a href="tel:+16125550198">
-                        +1 (612) 555-0198
-                    </a>
-
-                    <div class="footer-social">
-                        <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    
-                        <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-
-            <!-- Footer Bottom -->
-
-            <div class="footer-bottom">
-
-                <p>
-                    © 2026 Westwood Barber Co.
-                    All rights reserved.
-                </p>
-
-                <p>
-                    Minneapolis, Minnesota
-                </p>
-
-            </div>
+        <!-- =================================================
+             FOOTER BOTTOM
+        ================================================== -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Westwood Barber Co.
+                All rights reserved.
+            </p>
+
+            <p>
+                Minneapolis, Minnesota
+            </p>
 
         </div>
 
-    </footer>
+    </div>
+
+</footer>
 
 
-
-    <!-- =========================================
-         JAVASCRIPT
-    ========================================== -->
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
-
 </html>
